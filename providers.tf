@@ -7,8 +7,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
-  shared_credentials_files = ["C:/Users/athar/.aws/credentials"]
-  profile                  = "Terraform-aws"
+  region     = "us-east-1"
+  access_key = "AKIATCKAPXFYDSA3T3YG"
+  secret_key = "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"
 }
-
